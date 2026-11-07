@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="540" viewBox="0 0 800 540" role="img" aria-label="Aperçu du message d'analyse publié par Slack AI Agent dans un canal privé">
+  <defs>
+    <linearGradient id="avatar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#4A154B"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1A0B2E" flood-opacity="0.18"/>
+    </filter>
+    <clipPath id="frame"><rect x="10" y="10" width="780" height="516" rx="14"/></clipPath>
+  </defs>
+
+  <g font-family="Lato, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- Window -->
+    <rect x="10" y="10" width="780" height="516" rx="14" fill="#FFFFFF" stroke="#E5E7EB" filter="url(#shadow)"/>
+    <g clip-path="url(#frame)">
+      <rect x="10" y="10" width="780" height="50" fill="#3F0E40"/>
+    </g>
+    <!-- Lock icon + channel name -->
+    <rect x="32" y="33" width="12" height="10" rx="2" fill="#FFFFFF"/>
+    <path d="M34.5 33 V30 a3.5 3.5 0 0 1 7 0 V33" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+    <text x="52" y="42" font-size="16" font-weight="700" fill="#FFFFFF">lead-intelligence</text>
+    <text x="770" y="42" font-size="13" fill="#D8B4FE" text-anchor="end">Canal privé · équipe Sales</text>
+
+    <!-- Bot avatar + meta -->
+    <rect x="32" y="78" width="40" height="40" rx="8" fill="url(#avatar)"/>
+    <text x="52" y="104" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle">AI</text>
+    <text x="86" y="92" font-size="15" font-weight="800" fill="#1D1C1D">Slack AI Agent</text>
+    <rect x="214" y="79" width="34" height="17" rx="3" fill="#E8E8E8"/>
+    <text x="231" y="92" font-size="10" font-weight="700" fill="#616061" text-anchor="middle">APP</text>
+    <text x="258" y="92" font-size="12" fill="#616061">10:42</text>
+    <text x="86" y="114" font-size="14" fill="#1D1C1D">New Member Analysis: Camille Laurent (87/100)</text>
+
+    <!-- Attachment -->
+    <rect x="86" y="130" width="4" height="372" rx="2" fill="#36A64F"/>
+
+    <!-- Header with magnifier -->
+    <circle cx="110" cy="152" r="6" fill="none" stroke="#1D1C1D" stroke-width="2"/>
+    <path d="M114.5 156.5 L119 161" stroke="#1D1C1D" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="128" y="160" font-size="18" font-weight="800" fill="#1D1C1D">New Member: Camille Laurent</text>
+
+    <!-- Fields -->
+    <g font-size="14" fill="#1D1C1D">
+      <text x="104" y="194"><tspan font-weight="800">Fit Score:</tspan> 87/100</text>
+      <text x="420" y="194"><tspan font-weight="800">Email:</tspan> <tspan fill="#1264A3">camille@acme.io</tspan></text>
+      <text x="104" y="218"><tspan font-weight="800">Title:</tspan> VP Engineering</text>
+    </g>
+
+    <!-- Insights -->
+    <g font-size="14" fill="#1D1C1D">
+      <text x="104" y="256" font-weight="800">Insights:</text>
+      <text x="104" y="280">•  Senior technical leader with clear budget authority</text>
+      <text x="104" y="302">•  acme.io is a fast-growing B2B SaaS company</text>
+      <text x="104" y="324">•  Active open-source contributor (42 public repositories)</text>
+    </g>
+
+    <!-- Recommendations -->
+    <g font-size="14" fill="#1D1C1D">
+      <text x="104" y="362" font-weight="800">Recommendations:</text>
+      <text x="104" y="386">•  Send a personalized welcome DM within 24 hours</text>
+      <text x="104" y="408">•  Invite to the upcoming product demo webinar</text>
+      <text x="104" y="430">•  Share the enterprise case study for engineering teams</text>
+    </g>
+
+    <!-- Context -->
+    <rect x="104" y="476" width="3" height="10" fill="#616061"/>
+    <rect x="109" y="471" width="3" height="15" fill="#616061"/>
+    <rect x="114" y="474" width="3" height="12" fill="#616061"/>
+    <text x="124" y="486" font-size="12" fill="#616061">Analyzed: 2026-11-07T10:42:13.000Z</text>
+  </g>
+</svg>

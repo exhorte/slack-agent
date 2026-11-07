@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Slack AI Agent — l'agent IA qui qualifie chaque nouveau membre de votre communauté Slack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A0B2E"/>
+      <stop offset="0.55" stop-color="#4A154B"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0ABFC"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.5">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#dots)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#glow)"/>
+
+  <!-- Left: title -->
+  <g font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <rect x="80" y="84" width="196" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.2"/>
+    <circle cx="98" cy="99" r="5" fill="#2EB67D"/>
+    <text x="112" y="104" font-size="14" font-weight="600" fill="#E9D5FF" letter-spacing="0.5">AI-POWERED LEAD INTEL</text>
+
+    <text x="78" y="186" font-size="68" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">Slack AI Agent</text>
+
+    <text x="80" y="232" font-size="22" fill="#E9D5FF">L'agent IA qui qualifie chaque nouveau membre</text>
+    <text x="80" y="264" font-size="22" fill="#E9D5FF">de votre communauté Slack — en quelques secondes.</text>
+
+    <!-- Tech pills -->
+    <g font-size="14" font-weight="600" fill="#FFFFFF">
+      <rect x="80" y="304" width="104" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.12"/>
+      <text x="132" y="325" text-anchor="middle">Slack Bolt</text>
+      <rect x="194" y="304" width="104" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.12"/>
+      <text x="246" y="325" text-anchor="middle">LangChain</text>
+      <rect x="308" y="304" width="80" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.12"/>
+      <text x="348" y="325" text-anchor="middle">GPT-4</text>
+      <rect x="398" y="304" width="112" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.12"/>
+      <text x="454" y="325" text-anchor="middle">PostgreSQL</text>
+    </g>
+  </g>
+
+  <!-- Right: pipeline -->
+  <g font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <!-- connectors -->
+    <path d="M896 165 H939" stroke="#E9D5FF" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="5 6"/>
+    <path d="M1061 165 H1104" stroke="#E9D5FF" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="5 6"/>
+    <path d="M933 159 L940 165 L933 171" fill="none" stroke="#E9D5FF" stroke-opacity="0.8" stroke-width="2"/>
+    <path d="M1098 159 L1105 165 L1098 171" fill="none" stroke="#E9D5FF" stroke-opacity="0.8" stroke-width="2"/>
+
+    <!-- Node 1: Slack -->
+    <rect x="780" y="110" width="110" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <rect x="819" y="137" width="12" height="56" rx="6" fill="#36C5F0"/>
+    <rect x="839" y="137" width="12" height="56" rx="6" fill="#2EB67D"/>
+    <rect x="807" y="149" width="56" height="12" rx="6" fill="#ECB22E" fill-opacity="0.95"/>
+    <rect x="807" y="169" width="56" height="12" rx="6" fill="#E01E5A" fill-opacity="0.95"/>
+
+    <!-- Node 2: AI -->
+    <rect x="945" y="110" width="110" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <path d="M1000 130 C1004 155 1010 161 1035 165 C1010 169 1004 175 1000 200 C996 175 990 169 965 165 C990 161 996 155 1000 130 Z" fill="url(#spark)"/>
+    <path d="M1030 132 C1031 139 1033 141 1040 142 C1033 143 1031 145 1030 152 C1029 145 1027 143 1020 142 C1027 141 1029 139 1030 132 Z" fill="#F0ABFC"/>
+
+    <!-- Node 3: Score gauge -->
+    <rect x="1110" y="110" width="110" height="110" rx="24" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <circle cx="1165" cy="165" r="36" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="8"/>
+    <circle cx="1165" cy="165" r="36" fill="none" stroke="#36A64F" stroke-width="8" stroke-linecap="round" stroke-dasharray="196.8 226.2" transform="rotate(-90 1165 165)"/>
+    <text x="1165" y="175" text-anchor="middle" font-size="28" font-weight="800" fill="#FFFFFF">87</text>
+
+    <!-- Labels -->
+    <g font-size="14" font-weight="600" fill="#E9D5FF" text-anchor="middle">
+      <text x="835" y="246">Nouveau membre</text>
+      <text x="1000" y="246">Analyse IA</text>
+      <text x="1165" y="246">Fit Score</text>
+    </g>
+
+    <!-- Mini Slack card -->
+    <rect x="780" y="276" width="440" height="80" rx="14" fill="#FFFFFF" fill-opacity="0.96"/>
+    <rect x="796" y="290" width="5" height="52" rx="2.5" fill="#36A64F"/>
+    <text x="814" y="309" font-size="16" font-weight="700" fill="#1D1C1D">New Member: Camille Laurent</text>
+    <text x="814" y="333" font-size="14" fill="#616061">VP Engineering · acme.io · 3 insights</text>
+    <rect x="1124" y="294" width="80" height="28" rx="14" fill="#36A64F"/>
+    <text x="1164" y="313" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">87/100</text>
+  </g>
+</svg>
